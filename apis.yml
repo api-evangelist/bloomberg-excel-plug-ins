@@ -6,7 +6,19 @@ description: Bloomberg Excel Plug-ins integrate Bloomberg market data, analytics
   data, enabling quantitative analysis, financial modeling, and reporting without
   leaving the spreadsheet environment.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-excel-plug-ins.png
 url: https://raw.githubusercontent.com/api-evangelist/bloomberg-excel-plug-ins/refs/heads/main/apis.yml
 created: '2024-01-01'
 modified: '2026-04-21'
