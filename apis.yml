@@ -1,10 +1,9 @@
 aid: bloomberg-excel-plug-ins
 name: Bloomberg Excel Plug-ins
-description: Bloomberg Excel Plug-ins integrate Bloomberg market data, analytics,
-  and functions directly into Microsoft Excel. The Bloomberg Add-in for Excel provides
-  the BDH, BDP, BDS, and other Bloomberg formula functions to pull real-time and historical
-  data, enabling quantitative analysis, financial modeling, and reporting without
-  leaving the spreadsheet environment.
+description: Bloomberg Excel Plug-ins integrate Bloomberg market data, analytics, and functions directly into Microsoft
+  Excel. The Bloomberg Add-in for Excel provides the BDH, BDP, BDS, and other Bloomberg formula functions to pull
+  real-time and historical data, enabling quantitative analysis, financial modeling, and reporting without leaving
+  the spreadsheet environment.
 type: Index
 accessModel:
   pricing: freemium
@@ -21,7 +20,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-excel-plug-ins.png
 url: https://raw.githubusercontent.com/api-evangelist/bloomberg-excel-plug-ins/refs/heads/main/apis.yml
 created: '2024-01-01'
-modified: '2026-04-21'
+modified: '2026-08-27'
 specificationVersion: '0.23'
 tags:
 - Excel
@@ -33,9 +32,9 @@ tags:
 apis:
 - aid: bloomberg-excel-plug-ins:bloomberg-excel-addin
   name: Bloomberg Excel Add-in
-  description: The Bloomberg Add-in for Microsoft Excel provides formula functions
-    including BDP (Bloomberg Data Point), BDH (Bloomberg Data History), BDS (Bloomberg
-    Data Set), and BQL for accessing Bloomberg data directly in spreadsheets.
+  description: The Bloomberg Add-in for Microsoft Excel provides formula functions including BDP (Bloomberg Data
+    Point), BDH (Bloomberg Data History), BDS (Bloomberg Data Set), and BQL for accessing Bloomberg data directly
+    in spreadsheets.
   humanURL: https://www.bloomberg.com/professional/support/software-updates/
   baseURL: https://bloomberg.com/excel
   tags:
@@ -50,9 +49,8 @@ apis:
     url: https://www.bloomberg.com/professional/support/software-updates/
 - aid: bloomberg-excel-plug-ins:bloomberg-bql-excel
   name: Bloomberg BQL in Excel
-  description: Access Bloomberg Query Language (BQL) directly within Excel to run
-    flexible, custom queries for financial data, analytics, and derived metrics using
-    the Bloomberg BQL Add-in.
+  description: Access Bloomberg Query Language (BQL) directly within Excel to run flexible, custom queries for financial
+    data, analytics, and derived metrics using the Bloomberg BQL Add-in.
   humanURL: https://www.bloomberg.com/professional/solution/bloomberg-excel/
   baseURL: https://bloomberg.com/bql-excel
   tags:
@@ -64,6 +62,11 @@ apis:
   - type: Documentation
     url: https://www.bloomberg.com/professional/solution/bloomberg-excel/
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/bloomberg/
+  name: Bloomberg
+  x-relationship: product
+  x-generated-by: bloomberg-family:2026-08-27
 - type: DomainSecurity
   url: security/bloomberg-excel-plug-ins-domain-security.yml
 - type: Portal
@@ -79,15 +82,13 @@ common:
 - type: Features
   data:
   - name: BDP Formula
-    description: Bloomberg Data Point formula for real-time and static data retrieval
-      in Excel.
+    description: Bloomberg Data Point formula for real-time and static data retrieval in Excel.
   - name: BDH Formula
     description: Bloomberg Data History formula for historical time series data retrieval.
   - name: BDS Formula
     description: Bloomberg Data Set formula for multi-cell data retrieval and tables.
   - name: BQL Integration
-    description: Bloomberg Query Language support directly in Excel for advanced
-      custom queries.
+    description: Bloomberg Query Language support directly in Excel for advanced custom queries.
   - name: Real-Time Updates
     description: Automatic data refresh for real-time market data in Excel cells.
   - name: Portfolio Analysis Templates
@@ -95,18 +96,17 @@ common:
 - type: UseCases
   data:
   - name: Financial Modeling
-    description: Build discounted cash flow models and valuation models with live
-      Bloomberg data.
+    description: Build discounted cash flow models and valuation models with live Bloomberg data.
   - name: Portfolio Reporting
-    description: Create automated portfolio reports with real-time and historical
-      data.
+    description: Create automated portfolio reports with real-time and historical data.
   - name: Risk Analysis
     description: Pull pricing, volatility, and correlation data for risk calculations.
   - name: Market Research
     description: Analyze market trends and securities data without leaving Excel.
   - name: Quantitative Analysis
-    description: Run quantitative screens and backtests using Bloomberg historical
-      data in Excel.
+    description: Run quantitative screens and backtests using Bloomberg historical data in Excel.
 maintainers:
 - FN: Kin Lane
   email: kinlane@gmail.com
+x-parent: bloomberg
+x-relationship: product
