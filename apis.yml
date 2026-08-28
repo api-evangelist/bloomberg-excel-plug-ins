@@ -5,6 +5,17 @@ description: Bloomberg Excel Plug-ins integrate Bloomberg market data, analytics
   real-time and historical data, enabling quantitative analysis, financial modeling, and reporting without leaving
   the spreadsheet environment.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
