@@ -1,9 +1,9 @@
 aid: bloomberg-excel-plug-ins
 name: Bloomberg Excel Plug-ins
-description: Bloomberg Excel Plug-ins integrate Bloomberg market data, analytics, and functions directly into Microsoft
-  Excel. The Bloomberg Add-in for Excel provides the BDH, BDP, BDS, and other Bloomberg formula functions to pull
-  real-time and historical data, enabling quantitative analysis, financial modeling, and reporting without leaving
-  the spreadsheet environment.
+description: Bloomberg Excel Plug-ins integrate Bloomberg market data, analytics, and functions directly
+  into Microsoft Excel. The Bloomberg Add-in for Excel provides the BDH, BDP, BDS, and other Bloomberg
+  formula functions to pull real-time and historical data, enabling quantitative analysis, financial modeling,
+  and reporting without leaving the spreadsheet environment.
 type: Index
 deliveryModel:
   model: saas
@@ -31,7 +31,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-excel-plug-ins.png
 url: https://raw.githubusercontent.com/api-evangelist/bloomberg-excel-plug-ins/refs/heads/main/apis.yml
 created: '2024-01-01'
-modified: '2026-08-27'
+modified: '2026-09-16'
 specificationVersion: '0.23'
 tags:
 - Excel
@@ -43,9 +43,9 @@ tags:
 apis:
 - aid: bloomberg-excel-plug-ins:bloomberg-excel-addin
   name: Bloomberg Excel Add-in
-  description: The Bloomberg Add-in for Microsoft Excel provides formula functions including BDP (Bloomberg Data
-    Point), BDH (Bloomberg Data History), BDS (Bloomberg Data Set), and BQL for accessing Bloomberg data directly
-    in spreadsheets.
+  description: The Bloomberg Add-in for Microsoft Excel provides formula functions including BDP (Bloomberg
+    Data Point), BDH (Bloomberg Data History), BDS (Bloomberg Data Set), and BQL for accessing Bloomberg
+    data directly in spreadsheets.
   humanURL: https://www.bloomberg.com/professional/support/software-updates/
   baseURL: https://bloomberg.com/excel
   tags:
@@ -60,8 +60,8 @@ apis:
     url: https://www.bloomberg.com/professional/support/software-updates/
 - aid: bloomberg-excel-plug-ins:bloomberg-bql-excel
   name: Bloomberg BQL in Excel
-  description: Access Bloomberg Query Language (BQL) directly within Excel to run flexible, custom queries for financial
-    data, analytics, and derived metrics using the Bloomberg BQL Add-in.
+  description: Access Bloomberg Query Language (BQL) directly within Excel to run flexible, custom queries
+    for financial data, analytics, and derived metrics using the Bloomberg BQL Add-in.
   humanURL: https://www.bloomberg.com/professional/solution/bloomberg-excel/
   baseURL: https://bloomberg.com/bql-excel
   tags:
@@ -73,6 +73,8 @@ apis:
   - type: Documentation
     url: https://www.bloomberg.com/professional/solution/bloomberg-excel/
 common:
+- type: Website
+  url: https://bloomberg.com
 - type: ParentCompany
   url: https://apis.io/providers/bloomberg/
   name: Bloomberg
