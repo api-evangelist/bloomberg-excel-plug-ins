@@ -83,6 +83,12 @@ apis:
   - type: Documentation
     url: https://www.bloomberg.com/professional/solution/bloomberg-excel/
 common:
+- type: Plans
+  url: plans/bloomberg-excel-plug-ins-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/bloomberg-excel-plug-ins-rate-limits.yml
+- type: FinOps
+  url: finops/bloomberg-excel-plug-ins-finops.yml
 - type: Website
   url: https://bloomberg.com
 - type: ParentCompany
